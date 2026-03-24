@@ -1,7 +1,9 @@
 {
-  "name": "CSE Exebit OCaml Workshop (DockerHub image)",
-  "image": "alinabanerjee/test:latest",
-  "remoteUser": "vscode",
+  "name": "CSE Exebit OCaml Workshop (build from source)",
+  "build": {
+    "dockerfile": "../../dev/Dockerfile",
+    "context": "../.."
+  },
   "userEnvProbe": "loginInteractiveShell",
   "customizations": {
     "vscode": {
