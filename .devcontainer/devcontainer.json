@@ -1,6 +1,6 @@
 {
   "name": "CSE Exebit OCaml Workshop (DockerHub image)",
-  "image": "alinabanerjee/test:latest",
+  "image": "durwasa/ocaml-workshop:latest",
   "remoteUser": "vscode",
   "userEnvProbe": "loginInteractiveShell",
   "customizations": {
