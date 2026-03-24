@@ -19,10 +19,11 @@
                 }
         },
 
-        {
-         "mounts": [
-             "source=dune-cache,target=/home/vscode/.cache/dune,type=volume" ],
-         "remoteEnv": { "DUNE_CACHE_ROOT": "/home/vscode/.cache/dune" }
+        "mounts": [
+                "source=dune-cache,target=/home/vscode/.cache/dune,type=volume" 
+        ],
+        "remoteEnv": { 
+                "DUNE_CACHE_ROOT": "/home/vscode/.cache/dune" 
         },
 
         "hostRequirements": {
